@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Kakapo</title>
+    <style>
+      h2 {color: #3a5a40;}
+      h1 {color: #588157;}
+      img { border: 2px solid #000; }
+    </style>
+  </head>
+
+   <body background="https://www.colorhexa.com/cbf3f0.png">
+    <h1>Kakapo</h1>
+      <center>
+      <img src= "https://lh3.googleusercontent.com/qBZ5rRKxhNDYaQTjw2a9nMZVIt1dxS0aJN4gRqN4hBxdPNvMt0tObYZ9UhhTWB2X" alt= "kakapo">
+      </center>
+      <h2>O que são ?</h2>
+        <p> Também conhecido como caçapo é uma espécie de papagaio noturno, endémico da Nova Zelândia, notável por ser a única espécie da ordem Psittaciformes incapaz de voar. O seu nome comum significa papagaio da noite em maori. O kakapo é uma ave em perigo crítico de extinção. Em 2013, a população contava com apenas 124 aves. Em 2017, houve um ligeiro aumento, para 154 espécimes.</p>
+      <h2>Características gerais</h2>
+        <p>O kakapo é um papagaio de constituição robusta que pode medir até 60 cm de comprimento e pesar entre 3 a 4 quilos, um valor relativamente elevado em relação a outras aves do seu tamanho e que só é possível por ser não voadora. As asas são atrofiadas e pequenas e servem apenas como balanço quando estas aves circulam entre ramos de árvores. A escassez de músculos de voo faz também que o esterno seja reduzido em relação ao seu tamanho. Os hábitos noturnos de seus ancestrais fizeram que a seleção natural propiciasse a sobrevivência de indivíduos com os olhos frontais, tais quais os de corujas, o que é incomum entre psitacídeos. Tal adaptação favoreceu a visão sob baixa luminosidade.</p>
+      <h2>Alimentação</h2>
+        <p>Os kakapos são aves herbívoras que se alimentam de várias espécies nativas da Nova Zelândia, consumindo sementes, frutos e pólen. A sua fonte de alimento favorita é o fruto do rimu, uma árvore endémica do seu habitat. Ocasionalmente, os kakapos podem também alimentar-se de insectos e outros pequenos invertebrados.</p>
+  </body>
+
+</html>
