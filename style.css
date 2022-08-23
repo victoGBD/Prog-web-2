@@ -1,0 +1,22 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Georgia;
+}
+h1 {
+  color: black;
+  font-family: Cursive;
+}
+h2 {
+  font-family: Cooper Black;
+  color: #474A51
+}
+p {
+  color: black;
+}
+header {
+  background:#98e2eb;
+  border:2px;
+  margin:1px;
+  padding:4px;
+}
