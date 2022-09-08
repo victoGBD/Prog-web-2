@@ -1,9 +1,9 @@
 const tamanhoCelula = 40
 let pecaId = 0
 let imgid 
-document.body.append(tabuleiro())
+document.body.append(criaTabuleiro())
 
-function tabuleiro() {
+function criaTabuleiro() {
     const tamanho = 8
     const tabela = document.createElement('table')
 
@@ -25,12 +25,12 @@ function tabuleiro() {
                 celula.addEventListener('dragover', permDrop)
                 celula.style.backgroundColor = 'black'
                 if (i * 8 + j <= 24) {
-                    const peca = criarpeao('black')
+                    const peca = criaPeca('black')
                     peca.setAttribute('draggable','false')
                     celula.append(peca)
                     celula.removeEventListener('dragover', permDrop)
                 } else if (i * 8 + j >= 40) {
-                    celula.append(criarpeao('red'))
+                    celula.append(criaPeca('red'))
                     celula.removeEventListener('dragover', permDrop)
                 }
             } else {
@@ -41,7 +41,7 @@ function tabuleiro() {
     return tabela;
 }
 
-function criarpeao(cor) {
+function criaPeca(cor) {
     const imagem = document.createElement('img')
     imagem.classList.add('peca') 
     imagem.id = `p${pecaId++}`
@@ -68,17 +68,17 @@ function permDrop(evento){
     }
 }
 
-function mover(evento) {
+function drag(evento) {
     imgid = evento.target.id
 }
 
-function mudrjogador() {
+function trocaJog() {
     const pecas = document.querySelectorAll('.peca')
     pecas.forEach(peca => {
         peca.draggable = !peca.draggable
     })
 }
-function soltar(evento) {
+function drop(evento) {
     const imagem = document.querySelector(`#${imgid}`)
     imagem.parentElement.addEventListener('dragover', permDrop)
     evento.target.appendChild(imagem)
